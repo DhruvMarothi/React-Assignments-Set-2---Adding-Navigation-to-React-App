@@ -2,11 +2,20 @@ import React, { Component, useState } from "react";
 import "../styles/App.css";
 import { Link, Route, Switch, useLocation } from "react-router-dom";
 import Location from "./Location";
+
 function About() {
-  return <div>You are on the about page.</div>;
+  return (
+    <div>
+      <h3>You are on the about page.</h3>
+    </div>
+  );
 }
 function Home() {
-  return <div>You are home.</div>;
+  return (
+    <div>
+      <h3>You are home.</h3>
+    </div>
+  );
 }
 
 function OtherPath() {
